@@ -1,4 +1,4 @@
-const API_URL = "http://YOUR_BACKEND_IP:3000"; // Load balancer url
+const API_URL = "http://localhost:3000"; // Load balancer url
 async function loadEmployees() {
 
     try {
