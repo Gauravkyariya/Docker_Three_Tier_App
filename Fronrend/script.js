@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000"; // Load balancer url
+const API_URL = "http://localhost:8080"; // Load balancer url
 async function loadEmployees() {
 
     try {
