@@ -1,8 +1,8 @@
 From node
 
-WORKDIR /app
+WORKDIR /app  # Sets /app as the working directory inside the container.
 
-COPY package*.json ./
+COPY package*.json ./  #This copies your package-related JSON files from your project on your computer into the /app directory
 
 RUN npm install --omit=dev
 
