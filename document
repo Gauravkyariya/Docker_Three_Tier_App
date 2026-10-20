@@ -1,3 +1,5 @@
-1. Deploy the frontend on nginx
-2. Configure nginx to reach the backend , Add a reverse proxy so nginx forwards API calls to the backend. Edit /etc/nginx/nginx.conf
-3.Connect the backend to RDS
+Deploy the frontend on nginx
+Configure nginx to reach the backend , Add a reverse proxy so nginx forwards API calls to the backend. Edit /etc/nginx/nginx.conf
+Connect the backend to RDS
+Docker Compose creates and manages the containers, networks, and storage.
+
